@@ -299,14 +299,12 @@ here |X| is set of followers or following.
 
 So, using this we will create 6 features which are as follows:
 
-<ul>
-        <li>weight of incoming edges</li>
-        <li>weight of outgoing edges</li>
-        <li>weight of incoming edges + weight of outgoing edges</li>
-        <li>weight of incoming edges * weight of outgoing edges</li>
-        <li>2*weight of incoming edges + weight of outgoing edges</li>
-        <li>weight of incoming edges + 2*weight of outgoing edges</li>
-    </ul>
+- weight of incoming edges
+- weight of outgoing edges
+- weight of incoming edges + weight of outgoing edges
+- weight of incoming edges * weight of outgoing edges
+- 2*weight of incoming edges + weight of outgoing edges
+- weight of incoming edges + 2*weight of outgoing edges
 </pre>
 
 
