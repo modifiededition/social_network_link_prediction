@@ -1,6 +1,23 @@
 # Social Network Link Prediction Problem: Facebook Challenge
-## Step-by-Step to solve this problem.
 
+# Usage:
+
+1. In the notebook folder, you will find all the ipython notebook related to EDA, featurization and modelling.
+2. All the intermediate computed data, can be downloaded from this drive link:
+3. For the code walkthrough, check out the ipython notebooks. Below is given step-by-step approach to solve this problem. It contains observations from EDA, feature engineer from the graph data and the lastly feature importance from the best model.
+
+## Tools
+
+![python](https://img.shields.io/badge/python-3.8.8-yellow)
+![networkx](https://img.shields.io/badge/networkx-2.6.3-yellowgreen)
+![pandas](https://img.shields.io/badge/pandas-1.2.4-blue)
+![matplotlib](https://img.shields.io/badge/matplotlib-3.3.4-lightgrey)
+![numpy](https://img.shields.io/badge/numpy-1.19.5-black)
+![sklearn](https://img.shields.io/badge/sklearn-1.0.1-green)
+
+***
+
+# Tools Used
 ## 1. Problem Statement:
 
 Given a directed social graph, have to predict missing links to recommend users (Link Prediction in graph)
@@ -315,3 +332,12 @@ And, then I also calcualte the feature importance using the best model i.e Rando
 
 
 ![Sub-graph](images/fea_imp.png)
+
+
+
+### Support
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-goyal-00/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/modifiededition)
+
+
