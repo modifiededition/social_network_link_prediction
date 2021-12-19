@@ -3,7 +3,7 @@
 # Usage:
 
 1. In the notebook folder, you will find all the ipython notebook related to EDA, featurization and modelling.
-2. All the intermediate computed data, can be downloaded from this drive link:
+2. All the intermediate computed data, can be downloaded from this drive link: https://drive.google.com/drive/folders/1pbx84eYkjwKuZuuxc4-yiTm9ktvVyygm?usp=sharing
 3. For the code walkthrough, check out the ipython notebooks. Below is given step-by-step approach to solve this problem. It contains observations from EDA, feature engineer from the graph data and the lastly feature importance from the best model.
 
 ## Tools
@@ -17,7 +17,6 @@
 
 ***
 
-# Tools Used
 ## 1. Problem Statement:
 
 Given a directed social graph, have to predict missing links to recommend users (Link Prediction in graph)
