@@ -201,9 +201,7 @@ no of people present in test but not present in train --  81498
 
 http://www.statisticshowto.com/jaccard-index/
 
-\begin{equation}
-j = \frac{|X\cap Y|}{|X \cup Y|} 
-\end{equation}
+![jaccard](images/jaccard.png)
 
 <pre>
 
@@ -218,9 +216,7 @@ j = \frac{|X\cap Y|}{|X \cup Y|}
 
 <pre>
 
-\begin{equation}
-CosineDistance = \frac{|X\cap Y|}{|X|\cdot|Y|} 
-\end{equation}
+![cosine](images/cosine.png)
 
 - It is simple variaation of cosine distance for vecotors, that is instead of taking vectors, we take sets for both X (source) and Y(destination).
 - Simililary, we compute cosine distance for both vertices(source and destination) as a  followee and as a follower.
@@ -245,8 +241,8 @@ https://en.wikipedia.org/wiki/Adamic/Adar_index
 
 <pre>
 Adamic/Adar measures is defined as inverted sum of degrees of common neighbours for given two vertices.
-$$A(x,y)=\sum_{u \in N(x) \cap N(y)}\frac{1}{log(|N(u)|)}$$
 
+![adar](images/adar.png)
 
 -  Adar index is useful to predict links in a social network, according to the amount of shared links between two nodes.
 - here,for our directed graph neighborhood of x is subset of nodes which are followers to x.
@@ -297,9 +293,7 @@ In order to determine the similarity of nodes, an edge weight value was calculat
 `credit` - Graph-based Features for Supervised Link Prediction
 William Cukierski, Benjamin Hamner, Bo Yang
 
-\begin{equation}
-W = \frac{1}{\sqrt{1+|X|}}
-\end{equation}
+![weight](images/weight.png)
 
 here |X| is set of followers or following.
 
